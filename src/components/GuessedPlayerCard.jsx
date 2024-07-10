@@ -33,8 +33,6 @@ function GuessedPlayerCard( {player} ) {
                 <p>Number: {player.jersey_number}</p>
             </div>
         </div>
-
-
     )
   }
   

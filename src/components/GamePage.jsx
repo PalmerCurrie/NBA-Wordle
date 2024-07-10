@@ -23,6 +23,32 @@ function GamePage( {playerGuesses, updatePlayers} ) {
                 <button type="button" onClick={handlePlayerGuess}>Guess</button>
             </div>  
         <div className="player-guess-container">
+        <div className="player-container">
+            <div>
+                <p>Name</p>
+            </div>
+            <div>
+                <p>Team: </p>
+            </div>
+            <div>
+                <p>Conference: </p>
+            </div>
+            <div>
+                <p>Division: </p>
+            </div>
+            <div>
+                <p>Position:</p>
+            </div>
+            <div>
+                <p>Weight:</p>
+            </div>
+            <div>
+                <p>Country: </p>
+            </div>
+            <div>
+                <p>Number:</p>
+            </div>
+        </div>
             {playerGuesses.length > 0 ? (
                 playerGuesses.map((player, index) => (
                     <GuessedPlayerCard player={player.data} key={index} />
