@@ -13,8 +13,6 @@ function GamePage( {playerGuesses, updatePlayers} ) {
     const handlePlayerGuess = () => {
         updatePlayers(input);
     };  
-    console.log("Logging Player Guesses in GamePage: ");
-    console.log(playerGuesses);
 
     return (
       <div className="game-container">
@@ -54,14 +52,8 @@ function GamePage( {playerGuesses, updatePlayers} ) {
                     <GuessedPlayerCard player={player.data} key={index} />
                 ))
             ) : (
-                <div>Loading player data...</div>
+                <div> </div>
             )}
-            <div>
-                <p> TEMP GUESS 2</p>
-            </div>
-            <div>
-                <p> TEMP GUESS 3</p>
-            </div>
         </div>
 
 

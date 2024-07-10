@@ -12,25 +12,25 @@ function GuessedPlayerCard( {player} ) {
                 <p>{player.first_name} {player.last_name}</p>
             </div>
             <div>
-                <p>Team: {player.team.full_name}</p>
+                <p>{player.team.full_name}</p>
             </div>
             <div>
-                <p>Conference: {player.team.conference}</p>
+                <p>{player.team.conference}</p>
             </div>
             <div>
-                <p>Division: {player.team.division}</p>
+                <p>{player.team.division}</p>
             </div>
             <div>
-                <p>Position: {player.position}</p>
+                <p>{player.position}</p>
             </div>
             <div>
-                <p>Weight: {player.weight}</p>
+                <p>{player.weight}</p>
             </div>
             <div>
-                <p>Country: {player.country}</p>
+                <p>{player.country}</p>
             </div>
             <div>
-                <p>Number: {player.jersey_number}</p>
+                <p>{player.jersey_number}</p>
             </div>
         </div>
     )
