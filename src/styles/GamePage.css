@@ -1,50 +1,18 @@
-/* Header.css */
+/* GamePage.css */
 
-.header {
+.game-container {
     display: flex;
-    justify-content: space-between;
+    margin: 25px;
     align-items: center;
-    background-color: #fff;
-    padding: 15px 30px;
+    flex-direction: column;
+    height: 100%;
 }
 
-
-.logo {
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
+.player-guess-container {
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
-.logo .logo-text {
-    font-family: 'Arial', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: black;
-}
-
-
-.nav-links {
-    flex: 1;
-    margin-left: 50px;
-}
-
-.nav-links ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin-right: 25px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
 
 .search-bar {
     display: flex;
