@@ -99,6 +99,7 @@ const getPlayer = async (playerId) => {
   } else {
     setPlayerGuessList([...playerGuessList, data]);
   }
+  checkGameOver(data.data);
 };
 
  // Logging player guesses
@@ -137,12 +138,10 @@ const getPlayerID = (playerName) => {
   })
 }
 
-const checkGameOver = () => {
-  playerGuessList.map((player) => {
-    if (player.data.id == answer.id) {
-      alert("You Win");
-    }
-  })
+const checkGameOver = (player) => {
+  if (player.id == answer.id) {
+    alert("You Win");
+  }
 }
 
 // Fetch allPlayers and answer on mount
@@ -156,10 +155,6 @@ useEffect(() => {
 useEffect(() => {
   updatePlayerGuessList()
 }, [playerGuessID])
-
-useEffect(() => {
-  checkGameOver();
-}, [playerGuessList])
 
 
 return (
