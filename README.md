@@ -1,5 +1,6 @@
 # NBA-Wordle
-NBA Wordle made with React + JavaScript
+NBA Wordle made with React + JavaScript,  made with the BALLDONTLIE API.
+
 
 # To Do
 - Home Page
@@ -15,5 +16,7 @@ NBA Wordle made with React + JavaScript
   - Styling All Components
   - Pick a Colour Scheme
   - Get Images for Teams,
-  - Icons (Up/Down Arrow)  
+  - Icons (Up/Down Arrow)
+- Hide API Key
+- Write Description / ReadME
  
