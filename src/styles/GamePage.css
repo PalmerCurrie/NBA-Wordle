@@ -8,6 +8,14 @@
     height: 100%;
 }
 
+.player-container {
+    margin-top: 10px;
+}
+
+.player-container div {
+    background-color: #fff;
+}
+
 .player-guess-container {
     display: grid;
     grid-template-rows: 1fr;

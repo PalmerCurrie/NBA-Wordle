@@ -3,7 +3,7 @@ import "../styles/GamePage.css"
 import GuessedPlayerCard from "./GuessedPlayerCard";
 import { useState } from "react";
 
-function GamePage( {playerGuesses, updatePlayers} ) {
+function GamePage( {playerGuessList, updatePlayers} ) {
     const [input, setInput] = useState("");
 
     const handleInputChange = (event) => {
@@ -23,7 +23,7 @@ function GamePage( {playerGuesses, updatePlayers} ) {
         <div className="player-guess-container">
         <div className="player-container">
             <div>
-                <p>Name</p>
+                <p>Name: </p>
             </div>
             <div>
                 <p>Team: </p>
@@ -47,8 +47,8 @@ function GamePage( {playerGuesses, updatePlayers} ) {
                 <p>Number:</p>
             </div>
         </div>
-            {playerGuesses.length > 0 ? (
-                playerGuesses.map((player, index) => (
+            {playerGuessList.length > 0 ? (
+                playerGuessList.map((player, index) => (
                     <GuessedPlayerCard player={player.data} key={index} />
                 ))
             ) : (

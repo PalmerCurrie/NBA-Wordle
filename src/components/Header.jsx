@@ -22,15 +22,10 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <div className="search-bar">
-                {/* Placeholder for search bar */}
-                <input type="text" placeholder="Search" />
-                <button type="button">Search</button>
-            </div>
             {/* <Link to="/cart" className="shopping-link"> */}
                 <div className="shopping-bag">
                     {/* Placeholder for shopping bag/cart icon */}
-                    <p>Bag</p>
+                    <p>Placeholder</p>
                 </div>
             {/* </Link> */}
         </header>
