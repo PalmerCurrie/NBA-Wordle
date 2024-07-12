@@ -1,0 +1,52 @@
+/* HomePage.css */
+
+.homepage {
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+.homepage-container {
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center align content */
+  }
+  
+  .homepage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .game-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .how-to-play,
+  .challenge-yourself,
+  .get-started {
+    margin-top: 40px; /* Add space between sections */
+  }
+  
+  .how-to-play h2,
+  .challenge-yourself h2,
+  .get-started h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .how-to-play ol {
+    padding-left: 20px;
+  }
+  
+  .how-to-play li,
+  .challenge-yourself p,
+  .get-started p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .get-started p {
+    font-weight: bold;
+  }
