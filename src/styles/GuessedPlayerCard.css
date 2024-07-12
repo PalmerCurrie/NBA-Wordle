@@ -6,8 +6,13 @@
 
 }
 
-.player-container div p{
-    text-align: center;
+.player-container div {
+    align-items: center;
+}
+
+.player-container p {
+    margin-top: 26px;
+    text-align: center;     
 }
 
 .no-match {

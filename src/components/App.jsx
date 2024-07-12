@@ -141,7 +141,7 @@ const getPlayerID = (playerName) => {
 
 const checkGameOver = (player) => {
   if (player.id == answer.id) {
-    alert("You Win");
+    alert("You Win! Refresh the Page to Play Again!");
   }
 }
 
