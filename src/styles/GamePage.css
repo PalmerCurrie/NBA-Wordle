@@ -12,13 +12,14 @@
     margin-top: 10px;
 }
 
-.player-container div {
-    background-color: #fff;
-}
 
 .player-guess-container {
     display: grid;
     grid-template-rows: 1fr;
+}
+
+.property-title {
+    border-bottom: 2px solid black;
 }
 
 

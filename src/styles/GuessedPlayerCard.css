@@ -6,15 +6,58 @@
 
 }
 
-.player-container div{
+.player-container div p{
+    text-align: center;
+}
+
+.no-match {
+    background-color: lightgray;
     align-items: center;
     justify-content: center;
-    background-color: lightgray;
     margin: 5px;
     width: 100px;
     height: 75px;
-    
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.33);
 }
-.player-container div p{
-    text-align: center;
+
+.matches {
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 100px;
+    height: 75px;
+    background-color: rgb(0, 126, 0);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.33);
+}
+
+.yellow-matches {
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 100px;
+    height: 75px;
+    background-color: yellow;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.33);
+}
+
+.display-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.display-number h1, .display-number p {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1; 
+}
+
+.display-number h1 {
+    font-size: 1.5em; 
+}
+
+.display-number p {
+    font-size: 1em;
 }

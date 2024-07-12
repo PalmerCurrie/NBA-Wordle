@@ -165,7 +165,8 @@ return (
         <Route path="/" element={<HomePage answer={answer} />} />
         <Route path="/game" element={<GamePage 
               playerGuessList={playerGuessList} 
-              updatePlayers={updatePlayers} />} />
+              updatePlayers={updatePlayers} 
+              answer={answer} />} />
       </Routes>
     </div>
   </Router>
