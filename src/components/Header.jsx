@@ -22,12 +22,12 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            {/* <Link to="/cart" className="shopping-link"> */}
+            <Link to="/answer">
                 <div className="shopping-bag">
                     {/* Placeholder for shopping bag/cart icon */}
-                    <p>Placeholder</p>
+                    <p>Answer</p>
                 </div>
-            {/* </Link> */}
+            </Link>
         </header>
 
     </>

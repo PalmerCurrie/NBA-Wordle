@@ -2,6 +2,7 @@ import '../styles/App.css'
 import Header from './Header.jsx'
 import HomePage from './HomePage.jsx'
 import GamePage from './GamePage.jsx'
+import Answer from './Answer.jsx'
 import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -167,6 +168,7 @@ return (
               playerGuessList={playerGuessList} 
               updatePlayers={updatePlayers} 
               answer={answer} />} />
+        <Route path="/answer" element={<Answer answer={answer} />} />
       </Routes>
     </div>
   </Router>
