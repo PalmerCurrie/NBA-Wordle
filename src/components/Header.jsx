@@ -23,8 +23,7 @@ function Header() {
                 </ul>
             </nav>
             <Link to="/answer">
-                <div className="shopping-bag">
-                    {/* Placeholder for shopping bag/cart icon */}
+                <div className="nav-links">
                     <p>Answer</p>
                 </div>
             </Link>

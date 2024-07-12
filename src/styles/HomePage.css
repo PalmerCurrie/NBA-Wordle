@@ -3,12 +3,12 @@
 .homepage {
     height: 100vh;
     width: 100%;
-    background-color: #f2f2f2; /* Light grey background */
+    background-color: #f2f2f2; 
 }
 
 .homepage-container {
-    max-width: 800px; /* Limit content width for better readability */
-    margin: 0 auto; /* Center align content */
+    max-width: 800px; 
+    margin: 0 auto; 
   }
   
   .homepage h1 {
@@ -26,7 +26,7 @@
   .how-to-play,
   .challenge-yourself,
   .get-started {
-    margin-top: 40px; /* Add space between sections */
+    margin-top: 40px; 
   }
   
   .how-to-play h2,

@@ -4,7 +4,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevents scrolling within the app container */
+    overflow: hidden;
   }
   
   .app-container {

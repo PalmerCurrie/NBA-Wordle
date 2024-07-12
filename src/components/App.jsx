@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function App() {
-  // const apiKey = process.env.REACT_APP_API_KEY;
   const apiKey = 'a4e27add-76f8-4607-a57a-33a85149cfea';
   const [allPlayers, setAllPlayers] = useState([]);  
   const [playerGuessList, setPlayerGuessList] = useState([]);
